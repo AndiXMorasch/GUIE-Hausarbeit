@@ -1,0 +1,350 @@
+/* alle Farbcodes aus: https://wiki.selfhtml.org/wiki/Grafik/Farbe/Farbpaletten */
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+body {
+  background-color: #DDA0DD;
+}
+
+.form-control:focus {
+  border-color: white;
+}
+
+.btn-outline-secondary {
+  color: white;
+  border-color: white;
+}
+
+.btn-outline-success {
+  border-color: #fff;
+}
+
+.navbar-brand {
+  margin-right: 3rem;
+  font-family: Brush Script MT;
+  font-size: 40px;
+}
+
+.nav-link {
+  margin-right: 1.5rem;
+  font-size: 20px;
+}
+
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+  color: black;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.card-group {
+  margin-top: 50px;
+}
+
+.display-3 {
+  text-align: center;
+  color: white;
+}
+
+.display-4 {
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+}
+
+.card-title {
+  text-align: center;
+  color: white;
+}
+
+.card-body {
+  background-color: #DDA0DD;
+  color: white;
+}
+
+.card-text {
+  color: white;
+}
+
+.bewerbungstext {
+  font-size: 18px;
+}
+
+.card-footer {
+  background-color: rgba(0, 0, 0, .0);
+  border-top: 1px solid rgba(0, 0, 0, 0)
+}
+
+.jetztSpracheLernen {
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 20px;
+}
+
+#footerWeiss {
+  color: white !important
+}
+
+.jumbotron {
+  background-color: #DDA0DD;
+}
+
+.weisseJumbotronSchrift {
+  color: white;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #8B008B;
+  border-color: #8B008B;
+}
+
+.btn-primary:hover {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  background-color: #8B008B;
+  border-color: #8B008B;
+  box-shadow: 0 0 0 .2rem rgba(0, 0, 0, .0)
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: #8B008B;
+  border-color: #8B008B;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background-color: #8B008B;
+  border-color: #8B008B;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(0, 0, 0, .0)
+}
+
+.impressum {
+  color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* Link Unterstrich entfernt: https://www.data2type.de/xml-xslt-xslfo/css/css-kochbuch/links-und-navigation/link-unterstreichungen-entfern */
+#lingalofooterlogo {
+  text-decoration: none;
+  font-family: Brush Script MT;
+  font-size: 30px;
+}
+
+.text-muted {
+  color: white !important
+}
+
+.socialmedia {
+  color: white !important
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.textfeld {
+  display: block;
+  width: 50%;
+  margin-left: 25% !important;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #8B008B;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.form-row {
+  margin-right: 0px;
+  margin-left: 0px
+}
+
+.validationTextarea {
+  height: 200px !important
+}
+
+.uebersetzerbutton {
+  background-color: #8B008B;
+  border-color: #8B008B;
+}
+
+.uebersetzerbutton:hover {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.suchleisteuebersetzer {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.list-group-item.active {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.list-group-item {
+  background-color: #8B008B;
+  border: 1px solid rgba(0, 0, 0, .125);
+  color: white;
+  margin-bottom: 20px;
+}
+
+.list-group-item:hover {
+  color: black;
+  background-color: white;
+}
+
+.weissefarbefuertabelle {
+  color: white;
+}
+
+.table td, .table th {
+  border-top: 1px solid white;
+}
+
+.table thead th {
+  border-bottom: 2px solid white;
+}
+
+.card {
+  border-color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: black;
+  background-color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+@media (min-width:1300px) {
+  .card-deck {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+.btn-outline-success:hover {
+  color: black !important;
+  background-color: white;
+  border-color: white;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+  color: black !important;
+  background-color: white;
+  border-color: white;
+}
+
+@media (min-width:300px) {
+  .d-md-none {
+    display: none !important
+  }
+
+  .d-md-inline {
+    display: inline !important
+  }
+
+  .d-md-inline-block {
+    display: inline-block !important
+  }
+
+  .d-md-block {
+    display: block !important
+  }
+
+  .d-md-table {
+    display: table !important
+  }
+
+  .d-md-table-row {
+    display: table-row !important
+  }
+
+  .d-md-table-cell {
+    display: table-cell !important
+  }
+
+  .d-md-flex {
+    display: -ms-flexbox !important;
+    display: flex !important
+  }
+
+  .d-md-inline-flex {
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important
+  }
+}
+
+.keinBorder {
+  border: 0px;
+}
+
+.card-deck .card {
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.divider {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.list-group-item {
+  padding: .75rem;
+}
